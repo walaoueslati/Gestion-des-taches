@@ -14,11 +14,13 @@ const AddProject: React.FC = () => {
   const [description, setDescription] = useState('');
   const [status, setStatus] = useState<'To Do' | 'Doing' | 'Done'>('To Do');
   const [dueDate, setDueDate] = useState('');
-
 const handleSubmitNewTodo: FormEventHandler<HTMLFormElement> = async (e) => {
   e.preventDefault();
 
-  await addTodo({ title, description, status, dueDate });
+  const newTask = { id: uuidv4(), title, description, status, dueDate };
+
+  await addTodo(newTask); // Modifie addTodo pour accepter l'id ici (cf. ci-dessous)
+
   setTitle('');
   setDescription('');
   setStatus('To Do');
@@ -26,7 +28,6 @@ const handleSubmitNewTodo: FormEventHandler<HTMLFormElement> = async (e) => {
   setModalOpen(false);
   router.refresh();
 };
-
   return (
     <div>
       <button

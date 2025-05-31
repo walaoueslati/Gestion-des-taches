@@ -2,115 +2,122 @@
   "Tasks": [
     {
       "id": "1",
-      "title": "Acheter du lait",
-      "description": "Aller au supermarché et acheter du lait et du jus d'orange",
+      "title": "Définir le cahier des charges",
+      "description": "Recueillir les besoins du client et rédiger le cahier des charges fonctionnel",
       "status": "To Do",
       "dueDate": "2025-06-01"
     },
     {
       "id": "2",
-      "title": "Rédiger le rapport",
-      "description": "Finaliser le rapport mensuel pour l’équipe marketing",
+      "title": "Créer la maquette UI/UX",
+      "description": "Designer les maquettes des principales pages du site",
       "status": "Doing",
       "dueDate": "2025-06-03"
     },
     {
       "id": "3",
-      "title": "Nettoyer la maison",
-      "description": "Faire le ménage dans le salon, la cuisine et la salle de bain",
+      "title": "Valider la maquette avec le client",
+      "description": "Organiser une réunion pour valider les maquettes avec le client",
       "status": "Done",
       "dueDate": "2025-05-28"
     },
     {
       "id": "4",
-      "title": "Réviser les cours",
-      "description": "Relire les chapitres 1 à 4 du cours de JavaScript",
+      "title": "Développer la page d’accueil",
+      "description": "Coder la page d’accueil responsive en HTML, CSS et JavaScript",
       "status": "To Do",
       "dueDate": "2025-06-05"
     },
     {
       "id": "5",
-      "title": "Appeler le médecin",
-      "description": "Prendre un rendez-vous pour un contrôle médical",
+      "title": "Mettre en place le système de gestion des utilisateurs",
+      "description": "Développer l’authentification et la gestion des profils utilisateurs",
       "status": "To Do",
       "dueDate": "2025-06-02"
     },
     {
       "id": "6",
-      "title": "Préparer la présentation",
-      "description": "Créer les slides pour la réunion de vendredi",
+      "title": "Intégrer l’API backend",
+      "description": "Connecter le front-end avec les services backend via API REST",
       "status": "Doing",
       "dueDate": "2025-06-06"
     },
     {
       "id": "7",
-      "title": "Répondre aux e-mails",
-      "description": "Faire le tri et répondre aux e-mails professionnels",
+      "title": "Réaliser les tests fonctionnels",
+      "description": "Effectuer les tests unitaires et d’intégration sur les fonctionnalités principales",
       "status": "Done",
       "dueDate": "2025-05-30"
     },
     {
       "id": "8",
-      "title": "Mettre à jour le CV",
-      "description": "Ajouter les dernières expériences professionnelles",
+      "title": "Optimiser le référencement SEO",
+      "description": "Ajouter les métadonnées, balises alt et améliorer la vitesse du site",
       "status": "To Do",
       "dueDate": "2025-06-07"
     },
     {
       "id": "9",
-      "title": "Lire un livre",
-      "description": "Commencer à lire 'L'Alchimiste' de Paulo Coelho",
+      "title": "Préparer la documentation technique",
+      "description": "Rédiger la documentation pour les développeurs et les utilisateurs",
       "status": "To Do",
       "dueDate": "2025-06-10"
     },
     {
       "id": "10",
-      "title": "Faire du sport",
-      "description": "Aller à la salle de sport ou faire du footing",
+      "title": "Déployer le site en production",
+      "description": "Mettre en ligne le site sur le serveur de production",
       "status": "Doing",
       "dueDate": "2025-06-04"
     },
     {
       "id": "11",
-      "title": "bn",
-      "description": "vbgv",
+      "title": "Configurer le suivi analytics",
+      "description": "Installer Google Analytics et configurer les rapports de trafic",
       "status": "To Do",
       "dueDate": "2025-02-12"
     },
     {
       "id": "12",
-      "title": "titre1",
-      "description": "hgg",
+      "title": "Planifier la maintenance",
+      "description": "Définir les tâches et le planning de maintenance post-lancement",
       "status": "To Do",
       "dueDate": "2025-11-12"
     },
     {
       "id": "13",
-      "title": "titre2",
-      "description": "cxvczx",
+      "title": "Former l’équipe client",
+      "description": "Organiser une session de formation pour la prise en main du site",
       "status": "To Do",
       "dueDate": "2025-02-12"
     },
     {
       "id": "14",
-      "title": "cdasc",
-      "description": "cx",
+      "title": "Analyser les retours utilisateurs",
+      "description": "Collecter et traiter les feedbacks post-lancement",
       "status": "To Do",
       "dueDate": "3202-02-12"
     },
     {
       "id": "15",
-      "title": "titre3",
-      "description": "jhxa",
+      "title": "Mettre à jour les fonctionnalités",
+      "description": "Planifier les mises à jour et évolutions du site",
       "status": "To Do",
       "dueDate": "2025-02-12"
     },
     {
       "id": "61a4",
-      "title": "new",
-      "description": "dhs",
+      "title": "Installer l’environnement de développement",
+      "description": "Configurer les outils et le dépôt Git pour l’équipe",
       "status": "To Do",
       "dueDate": "2025-02-12"
+    },
+    {
+      "id": "377c2f6d-f767-44c4-92ac-95340fce400e",
+      "title": "Créer la base de données",
+      "description": "Concevoir et créer la base de données pour le site",
+      "status": "To Do",
+      "dueDate": "2024-12-29"
     }
   ]
 }

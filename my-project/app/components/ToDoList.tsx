@@ -16,6 +16,8 @@ const ToDoList: React.FC<TodoListProps> = ({ Tasks }) => {
         <th className="px-4 py-2 text-left">Description</th>
         <th className="px-4 py-2 text-left">Statut</th>
         <th className="px-4 py-2 text-left">Date d’échéance</th>
+        <th className="px-4 py-2 text-left">Action</th>
+
       </tr>
     </thead>
     <tbody>

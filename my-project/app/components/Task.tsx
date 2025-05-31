@@ -1,4 +1,6 @@
 import { ITask } from "@/types/task";
+import { FaRegTrashAlt } from "react-icons/fa";
+import { MdModeEdit } from "react-icons/md";
 
 interface TasksProps {
  Task: ITask;
@@ -24,6 +26,11 @@ const Task: React.FC<TasksProps> = ({ Task }) => {
 
       </td>
       <td>{Task.dueDate}</td>
+      <td className="flex gap-4">
+      <MdModeEdit className="text-blue-500"/>
+      <FaRegTrashAlt className="text-red-500"/>
+
+      </td>
     </tr>
   );
 };

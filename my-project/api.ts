@@ -10,7 +10,7 @@ export const getAllTasks = async () : Promise<ITask[]> =>{
 
 }
 
-export const addTodo = async (todo: Omit<ITask, 'id'>): Promise<ITask> => {
+export const addTodo = async (todo: ITask): Promise<ITask> => {
   const res = await fetch(`${baseUrl}/Tasks`, {
     method: 'POST',
     headers: {
