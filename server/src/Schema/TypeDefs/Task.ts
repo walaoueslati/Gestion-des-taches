@@ -6,7 +6,8 @@ export const TaskType =new GraphQLObjectType({
     title: { type: GraphQLString },
     description: { type: GraphQLString },
     status: { type: GraphQLString },
-    dueDate: { type: GraphQLString }
+    dueDate: { type: GraphQLString },
+    
     })
 })
 

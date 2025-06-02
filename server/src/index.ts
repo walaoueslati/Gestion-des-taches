@@ -5,6 +5,7 @@ import cors from 'cors'
 import { DataSource } from 'typeorm'
 import { schema } from './Schema'
 import { Task }from './Entities/Task'
+import { Projects } from './Entities/Projects'
 
 const AppDataSource = new DataSource({
   type: 'mysql',
@@ -12,8 +13,8 @@ const AppDataSource = new DataSource({
   port: 3306,
   username: 'root',
   password: '',
-  database: 'StageData',
-  entities: [Task], 
+  database: 'StageDB',
+  entities: [Task,Projects], 
   synchronize: false,
   logging: true,
 })
